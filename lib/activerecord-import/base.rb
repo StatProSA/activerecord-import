@@ -11,6 +11,7 @@ module ActiveRecord::Import
     when 'mysql2spatial' then 'mysql2'
     when 'spatialite' then 'sqlite3'
     when 'postgis' then 'postgresql'
+    when 'chronomodel' then 'postgresql'
     else adapter
     end
   end
